@@ -6,22 +6,22 @@
      "welcomeMessage":"Добро пожаловать в MC Tools!",
      "description":"Это коллекция мощных инструментов для Minecraft.",
      "cards":{
-        "advertisement":{
-           "title":"Ваша реклама",
-           "description":"Здесь может быть ваша реклама"
-        },
-        "byteflipper":{
-           "title":"ByteFlipper",
-           "description":"Официальный канал разработчика"
-        },
-        "strongholdFinder":{
-           "title":"Поиск крепости по углу броска",
-           "description":"Найдите местоположение крепости, используя угол броска жемчужины Эндера"
-        },
-        "serverStatus":{
-           "title":"Статус сервера Minecraft",
-           "description":"Быстро получите статус любого сервера Minecraft"
-        },
+      "ffsettings":{
+         "title":"FF Settings",
+         "description": "Здесь вы найдете настройки чувствительности для игры Garena Free Fire для различных устройств."
+      },
+      "mcbedrock":{
+         "title":"MCBedrock",
+         "description": "Здесь вы найдете последние новости, а также списки изменений для Minecraft."
+      },
+      "strongholdFinder":{
+         "title":"Portal Seeker App",
+         "description": "Здесь вы можете легко найти портал к крепости, используя ваши координаты и угол броска."
+      },
+      "mcids":{
+         "title":"MC IDs App",
+         "description": "Здесь вы можете легко найти идентификаторы блоков, предметов, частиц и т.д. из Minecraft."
+      },
         "donate":{
          "title":"Donate",
          "description":"Donate"

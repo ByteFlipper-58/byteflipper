@@ -7,7 +7,12 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-  }
+  },
+  {
+    path: '/ffsettings',
+    name: 'FFSettings',
+    component: () => import('@/views/FFSettings.vue'),
+  },
 ];
 
 const router = createRouter({

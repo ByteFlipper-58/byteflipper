@@ -1,9 +1,11 @@
-<!--src/components/Card.vue-->
 <template>
   <div
-    class="card bg-neutral text-neutral-content shadow-xl p-5 transition-transform transition-shadow transition-filter transition-border hover:shadow-2xl hover:scale-105 hover:brightness-110 hover:translate-y-[-5px] hover:border hover:border-base-100"
+    class="card relative bg-neutral text-neutral-content shadow-xl p-5 transition-transform transition-shadow transition-filter transition-border hover:shadow-2xl hover:scale-105 hover:brightness-110 hover:translate-y-[-5px] hover:border hover:border-base-100"
     @click="handleClick"
   >
+    <div v-if="badgeText" :class="badgeClass" class="badge absolute top-2 right-2">
+      {{ badgeText }}
+    </div>
     <div v-if="imageSrc" class="avatar mx-auto mb-4">
       <div class="w-24 rounded-full">
         <img :src="imageSrc" alt="Card image" />
@@ -44,7 +46,15 @@ export default {
     },
     onClick: {
       type: Function,
-      default: () => {}, // Default to an empty function if no onClick handler is provided
+      default: () => {},
+    },
+    badgeText: {
+      type: String,
+      default: '',
+    },
+    badgeColor: {
+      type: String,
+      default: 'bg-primary',
     },
   },
   computed: {
@@ -59,11 +69,14 @@ export default {
           return 'text-center';
       }
     },
+    badgeClass() {
+      return `${this.badgeColor} text-white rounded px-2 py-1 text-xs`;
+    },
   },
   methods: {
     handleClick() {
       if (this.onClick) {
-        this.onClick(); // Call the onClick function if provided
+        this.onClick();
       }
     },
   },
@@ -76,18 +89,22 @@ export default {
 }
 
 .card {
-  transition: 
-    transform 0.3s ease, 
-    box-shadow 0.3s ease, 
-    filter 0.3s ease, 
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    filter 0.3s ease,
     border 0.3s ease;
-  border: 2px solid transparent; /* Default border */
+  border: 2px solid transparent;
 }
 
 .card:hover {
-  filter: brightness(110%); /* Slightly increase brightness */
-  transform: scale(1.05) translateY(-5px); /* Slightly enlarge and lift */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
-  border-color: #f9fafb; /* bg-base-100 color for border */
+  filter: brightness(110%);
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: #f9fafb;
+}
+
+.badge {
+  z-index: 10; /* Ensure badge is above other elements */
 }
 </style>

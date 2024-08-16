@@ -8,7 +8,7 @@
   <script setup>
   import { ref, onMounted } from 'vue';
   
-  const texts = ['Android Developer', 'Indus', 'Butcher', 'Rat', 'Mod Developer']; // Список слов для анимации
+  const texts = ['iBa', 'Ibragim', 'Ibrahim', 'Ibraim', 'Abraham', 'Abram', 'Avraham', 'Brahim', 'Ibraheem', 'Ibrahima', 'Ebrahim', 'Muslim', 'Deni', 'Andrey']; // Список слов для анимации
   const index = ref(0); // Индекс текущего слова
   const displayedText = ref(''); // Текущее отображаемое слово
   

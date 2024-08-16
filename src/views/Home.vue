@@ -34,26 +34,41 @@
     </div>
 
     <!-- Грид-контейнер для карточек -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
       <Card
-        imageSrc="https://github.com/ByteFlipper-58/mc-tools/blob/master/src/assets/logos/byteflipper.png?raw=true"
-        :title="$t('home.cards.byteflipper.title')"
-        :description="$t('home.cards.byteflipper.description')"
+        imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/ff-settings-logo.png?raw=true"
+        :title="$t('home.cards.ffsettings.title')"
+        :description="$t('home.cards.ffsettings.description')"
         textAlign="center"
+        badgeText="NEW"
+        badgeColor="bg-green-500"
+        @click="() => handleCardClick('FFSettings')"
+      />
+      <Card
+        imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/mcbedrock-logo.png?raw=true"
+        :title="$t('home.cards.mcbedrock.title')"
+        :description="$t('home.cards.mcbedrock.description')"
+        textAlign="center"
+        badgeText="STABLE"
+        badgeColor="bg-green-500"
         @click="openTelegramChannel"
       />
       <Card
-        imageSrc="https://github.com/ByteFlipper-58/mc-tools/blob/master/src/assets/logos/stronghold_finder.png?raw=true"
+        imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/end-portal-finder-logo.png?raw=true"
         :title="$t('home.cards.strongholdFinder.title')"
         :description="$t('home.cards.strongholdFinder.description')"
         textAlign="center"
-        @click="() => handleCardClick('StrongholdFinder')"
+        badgeText="STABLE"
+        badgeColor="bg-green-500"
+        @click="() => handleCardClick('ServerStatus')"
       />
       <Card
-        imageSrc="https://github.com/ByteFlipper-58/mc-tools/blob/master/src/assets/logos/server_status.png?raw=true"
-        :title="$t('home.cards.serverStatus.title')"
-        :description="$t('home.cards.serverStatus.description')"
+        imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/mcids-logo.png?raw=true"
+        :title="$t('home.cards.mcids.title')"
+        :description="$t('home.cards.mcids.description')"
         textAlign="center"
+        badgeText="CLOSED"
+        badgeColor="bg-red-800"
         @click="() => handleCardClick('ServerStatus')"
       />
     </div>
