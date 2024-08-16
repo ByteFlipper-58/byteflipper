@@ -27,5 +27,29 @@
          "description":"Donate"
       }
      }
+  },
+  "ffsettings": {
+   "about": "",
+   "features": "Features",
+   "screenshots": "Screenshots",
+   "description": "Here are sensitivity settings for the game Garena Free Fire for various devices.",
+   "featues":{
+      "cloudTechnology":{
+         "title":"Cloud Technology",
+         "description":"New sensitivities settings appear without needing to update the app"
+      },
+      "multilingualSupport":{
+         "title":"Multilingual Support",
+         "description":"Different languages are supported and new ones are being added"
+      },
+      "manyBrands":{
+         "title":"Many Brands",
+         "description":"Support for devices from more than 12 different manufacturers"
+      },
+      "minimalistUI":{
+         "title":"Minimalist UI",
+         "description":"Self-explanatory interface without overloaded menus"
+      }
+   }
   }
 }
