@@ -9,7 +9,7 @@ const messages = {
 };
 
 const i18n = createI18n({
-  locale: 'ru', // Язык по умолчанию
+  locale: 'en', // Язык по умолчанию
   fallbackLocale: 'en', // Язык, используемый, если перевод отсутствует
   messages,
 });

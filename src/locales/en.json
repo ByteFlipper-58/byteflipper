@@ -4,7 +4,7 @@
   },
   "home":{
      "welcomeMessage":"Hi there!",
-     "description":"This is a collection of powerful tools for Minecraft.",
+     "description": "We pour our hearts into the projects we create for you ❤️<br>On this site, you'll find our apps and developments, crafted with care and attention. We hope our work will be useful to you.",
      "cards":{
         "ffsettings":{
            "title":"FF Settings",
@@ -47,6 +47,28 @@
          "description":"Support for devices from more than 12 different manufacturers"
       },
       "minimalistUI":{
+         "title":"Minimalist UI",
+         "description":"Self-explanatory interface without overloaded menus"
+      }
+   }
+  },
+  "aboutMe": {
+   "description": "I'm an Android developer who recently started working in web development. I'm originally from Chechnya, Russia, but currently reside in Biała Podlaska, Poland. I moved to Poland in 2017 and still live here, but I plan to move to Moscow or St. Petersburg in the future.<br><br>Currently, I'm actively studying web development. I'm also a member of the JVMFrog Live community and the owner of the ByteFlipper project.<br><br>Open source is my passion, and for over two years, I've been contributing to the development of open-source projects by publishing my applications with open source code. Besides technology, I'm interested in linguistics, and I'm actively learning English at the moment. I'm also passionate about photography, user interface design, and even drawing. Music is my passion, and my day doesn't go by without good music.",
+   "skills": "Skills",
+   "skillsCards":{
+      "skill1":{
+         "title":"Android Developement",
+         "description":"Java / Kotlin"
+      },
+      "skill2":{
+         "title":"Web Developement",
+         "description":"Vue3 + DaisyUI"
+      },
+      "skill3":{
+         "title":"Version Control",
+         "description":"Git / Github"
+      },
+      "skill4":{
          "title":"Minimalist UI",
          "description":"Self-explanatory interface without overloaded menus"
       }
