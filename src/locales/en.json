@@ -58,7 +58,7 @@
    "skillsCards":{
       "skill1":{
          "title":"Android Developement",
-         "description":"Java / Kotlin"
+         "description":"Java, Kotlin"
       },
       "skill2":{
          "title":"Web Developement",
@@ -66,11 +66,11 @@
       },
       "skill3":{
          "title":"Version Control",
-         "description":"Git / Github"
+         "description":"Git, GitHub"
       },
       "skill4":{
-         "title":"Minimalist UI",
-         "description":"Self-explanatory interface without overloaded menus"
+         "title":"Web/App Designing",
+         "description":"Prototyping & UI/UX Designing"
       }
    }
   }

@@ -31,27 +31,39 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
         <Card
           imageSrc="src/assets/images/about/Android_Robot.png"
+          imagePadding="16px"
+          imageSize="128px"
+          imageBackgroundColor="#73b57b"
           :title="$t('aboutMe.skillsCards.skill1.title')"
           :description="$t('aboutMe.skillsCards.skill1.description')"
           textAlign="center"
           @click="() => null"
         />
         <Card
-          imageSrc="https://your-image-url.com/skill2.png"
+          imageSrc="src/assets/images/about/web.png"
+          imagePadding="16px"
+          imageSize="128px"
+          imageBackgroundColor="#6b95cd"
           :title="$t('aboutMe.skillsCards.skill2.title')"
           :description="$t('aboutMe.skillsCards.skill2.description')"
           textAlign="center"
           @click="() => null"
         />
         <Card
-          imageSrc="https://your-image-url.com/skill3.png"
+          imageSrc="src/assets/images/about/github.png"
+          imagePadding="16px"
+          imageSize="128px"
+          imageBackgroundColor="#5e6778"
           :title="$t('aboutMe.skillsCards.skill3.title')"
           :description="$t('aboutMe.skillsCards.skill3.description')"
           textAlign="center"
           @click="() => null"
         />
         <Card
-          imageSrc="https://your-image-url.com/skill4.png"
+          imageSrc="src/assets/images/about/design.png"
+          imagePadding="16px"
+          imageSize="128px"
+          imageBackgroundColor="#948c8c"
           :title="$t('aboutMe.skillsCards.skill4.title')"
           :description="$t('aboutMe.skillsCards.skill4.description')"
           textAlign="center"
