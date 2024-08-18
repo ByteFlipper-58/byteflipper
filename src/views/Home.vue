@@ -4,7 +4,7 @@
     <div class="flex flex-col lg:flex-row items-stretch gap-8">
       <!-- Левая сторона с текстом -->
       <div class="flex-1 lg:pr-8 mb-8 lg:mb-0 lg:p-16 max-w-4xl mx-auto flex flex-col justify-center">
-        <h2 class="text-xl lg:text-2xl font-bold mb-4">Hi there!</h2>
+        <h2 class="text-xl lg:text-2xl font-bold mb-4">{{ $t('home.welcomeMessage') }}</h2>
         <h1 class="text-3xl lg:text-4xl font-bold mb-4">
           <AnimatedText />
         </h1>
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="text-center mt-8">
-      <h3 class="text-2xl lg:text-3xl font-bold mb-4 gradient-text">Our Android Apps</h3>
+      <h3 class="text-2xl lg:text-3xl font-bold mb-4 gradient-text">{{$t('home.ourAndroidApps')}}</h3>
     </div>
     <!-- Грид-контейнер для карточек -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">

@@ -1,10 +1,30 @@
 {
-  "ui":{
-     "back":"Back"
+   "animatedTexts": [
+      "iBa", 
+      "Ibragim", 
+      "Ibrahim", 
+      "Ibraim",
+      "Abraham",
+      "Abram",
+      "Avraham",
+      "Brahim",
+      "Ibraheem",
+      "Ibrahima",
+      "Ebrahim",
+      "Muslim",
+      "Deni",
+      "Andrey"
+    ],
+    "iam": "I am a",
+  "menu": {
+   "home": "Home",
+   "aboutMe": "About Me",
+   "contactMe": "Contact Me"
   },
   "home":{
      "welcomeMessage":"Hi there!",
      "description": "We pour our hearts into the projects we create for you ❤️<br>On this site, you'll find our apps and developments, crafted with care and attention. We hope our work will be useful to you.",
+     "ourAndroidApps": "Our Android apps",
      "cards":{
         "ffsettings":{
            "title":"FF Settings",
@@ -72,6 +92,20 @@
          "title":"Web/App Designing",
          "description":"Prototyping & UI/UX Designing"
       }
+   }
+  },
+  "contactMe": {
+   "socialNetwork": "My Social Network",
+   "form": {
+      "title": "Contact me",
+      "yourname": "Your name",
+      "enteryourname": "Enter your name",
+      "youremail": "Your email",
+      "enteryouremail": "Enter your email",
+      "message": "Message",
+      "enteryourmessage": "Enter your message",
+      "submit": "Submit",
+      "sending": "Sending..."
    }
   }
 }

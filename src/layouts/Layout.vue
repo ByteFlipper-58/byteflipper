@@ -16,10 +16,10 @@
       </div>
       <!-- Navigation Links -->
       <nav :class="{'block': isMenuOpen, 'hidden': !isMenuOpen}" class="lg:flex lg:items-center lg:space-x-4">
-        <router-link to="/" class="nav-button">Home</router-link>
-        <router-link to="/about" class="nav-button">About Me</router-link>
-        <router-link to="/contact" class="nav-button">Contact Me</router-link>
-        <router-link to="/faq" class="nav-button">FAQ</router-link>
+        <router-link to="/" class="nav-button">{{ $t('menu.home') }}</router-link>
+        <router-link to="/about" class="nav-button">{{ $t('menu.aboutMe') }}</router-link>
+        <router-link to="/contact" class="nav-button">{{ $t('menu.contactMe') }}</router-link>
+        <!--router-link to="/faq" class="nav-button">FAQ</router-link-->
       </nav>
     </header>
 
@@ -131,7 +131,7 @@ header {
     backdrop-filter: blur(12px);
     background-color: #121C22;
     position: fixed; /* Changed to fixed for proper overlay */
-    top: 60px; /* Adjusted to match header height */
+    top: 70px; /* Adjusted to match header height */
     left: 0;
     right: 0;
     flex-direction: column;

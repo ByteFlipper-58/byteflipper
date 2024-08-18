@@ -6,7 +6,7 @@
         <div class="flex-1 lg:pr-8 mb-8 lg:mb-0 lg:p-16 min-h-full flex flex-col justify-between">
           <div>
             <h1 class="text-3xl lg:text-4xl font-bold mb-4 gradient-text">
-              About Me
+              {{ $t('menu.aboutMe') }}
             </h1>
             <p class="text-base lg:text-lg mb-4" v-html="$t('aboutMe.description')"></p>
           </div>
@@ -30,7 +30,7 @@
       <!-- Грид-контейнер для карточек -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
         <Card
-          imageSrc="src/assets/images/about/Android_Robot.png"
+          imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/Android_Robot.png?raw=true"
           imagePadding="16px"
           imageSize="128px"
           imageBackgroundColor="#73b57b"
@@ -40,7 +40,7 @@
           @click="() => null"
         />
         <Card
-          imageSrc="src/assets/images/about/web.png"
+          imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/web.png?raw=true"
           imagePadding="16px"
           imageSize="128px"
           imageBackgroundColor="#6b95cd"
@@ -50,7 +50,7 @@
           @click="() => null"
         />
         <Card
-          imageSrc="src/assets/images/about/github.png"
+          imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/github.png?raw=true"
           imagePadding="16px"
           imageSize="128px"
           imageBackgroundColor="#5e6778"
@@ -60,7 +60,7 @@
           @click="() => null"
         />
         <Card
-          imageSrc="src/assets/images/about/design.png"
+          imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/design.png?raw=true"
           imagePadding="16px"
           imageSize="128px"
           imageBackgroundColor="#948c8c"
@@ -69,9 +69,6 @@
           textAlign="center"
           @click="() => null"
         />
-      </div>
-      <div class="text-center mt-16">
-        <h3 class="text-2xl lg:text-3xl font-bold mb-4 gradient-text">{{ $t('aboutMe.projects') }}</h3>
       </div>
     </div>
   </template>
@@ -113,7 +110,7 @@
   }
   .gradient-text {
     display: inline-block;
-    background: linear-gradient(90deg, #007bff, #6610f2);
+    background: linear-gradient(90deg, #f4097b, #fd6900);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
