@@ -1,0 +1,111 @@
+{
+    "animatedTexts":[
+       "iBa",
+       "Ibragim",
+       "Ibrahim",
+       "Ibraim",
+       "Abraham",
+       "Abram",
+       "Avraham",
+       "Brahim",
+       "Ibraheem",
+       "Ibrahima",
+       "Ebrahim",
+       "Muslim",
+       "Deni",
+       "Andrey"
+    ],
+    "iam":"Jestem",
+    "menu":{
+       "home":"Strona główna",
+       "aboutMe":"O mnie",
+       "contactMe":"Skontaktuj się"
+    },
+    "home":{
+       "welcomeMessage":"Witaj!",
+       "description":"Wkładamy serce w projekty, które tworzymy dla Ciebie ❤️<br>Na tej stronie znajdziesz nasze aplikacje i rozwinięcia, wykonane z troską i uwagą. Mamy nadzieję, że nasza praca będzie dla Ciebie przydatna.",
+       "ourAndroidApps":"Nasze aplikacje na Androida",
+       "cards":{
+          "ffsettings":{
+             "title":"Ustawienia FF",
+             "description":"Tutaj znajdują się ustawienia czułości dla gry Garena Free Fire dla różnych urządzeń."
+          },
+          "mcbedrock":{
+             "title":"MCBedrock",
+             "description":"Tutaj znajdziesz najnowsze informacje oraz changelogi do Minecrafta."
+          },
+          "strongholdFinder":{
+             "title":"Aplikacja Portal Seeker",
+             "description":"Tutaj możesz łatwo znaleźć portal do fortecy, używając swoich współrzędnych i kąta rzutu."
+          },
+          "mcids":{
+             "title":"Aplikacja MC IDs",
+             "description":"Tutaj możesz łatwo znaleźć ID bloków, przedmiotów, cząsteczek itp. z Minecrafta."
+          },
+          "donate":{
+             "title":"Wsparcie",
+             "description":"Wesprzyj"
+          }
+       }
+    },
+    "ffsettings":{
+       "about":"",
+       "features":"Funkcje",
+       "screenshots":"Zrzuty ekranu",
+       "description":"Tutaj znajdują się ustawienia czułości dla gry Garena Free Fire dla różnych urządzeń.",
+       "featues":{
+          "cloudTechnology":{
+             "title":"Technologia chmurowa",
+             "description":"Nowe ustawienia czułości pojawiają się bez potrzeby aktualizacji aplikacji"
+          },
+          "multilingualSupport":{
+             "title":"Wsparcie wielojęzyczne",
+             "description":"Obsługuje różne języki, a nowe są dodawane"
+          },
+          "manyBrands":{
+             "title":"Wiele marek",
+             "description":"Wsparcie dla urządzeń od ponad 12 różnych producentów"
+          },
+          "minimalistUI":{
+             "title":"Minimalistyczny interfejs",
+             "description":"Interfejs samowyjaśniający się, bez przeciążonych menu"
+          }
+       }
+    },
+    "aboutMe":{
+       "description":"Jestem deweloperem Androida, który niedawno zaczął pracować w rozwoju sieciowym. Pochodzę z Czeczenii, Rosja, ale obecnie mieszkam w Białej Podlaskiej, Polska. Przeprowadziłem się do Polski w 2017 roku i nadal tutaj mieszkam, ale planuję przeprowadzkę do Moskwy lub Petersburga w przyszłości.<br><br>Obecnie aktywnie studiuję rozwój sieciowy. Jestem także członkiem społeczności JVMFrog Live i właścicielem projektu ByteFlipper.<br><br>Open source to moja pasja, a od ponad dwóch lat przyczyniam się do rozwoju projektów open-source, publikując swoje aplikacje z kodem źródłowym. Poza technologią, interesuję się lingwistyką i aktywnie uczę się angielskiego. Pasjonuje mnie także fotografia, projektowanie interfejsów użytkownika oraz rysowanie. Muzyka to moja pasja i nie ma dnia, żebym nie słuchał dobrej muzyki.",
+       "skills":"Umiejętności",
+       "skillsCards":{
+          "skill1":{
+             "title":"Rozwój Androida",
+             "description":"Java, Kotlin"
+          },
+          "skill2":{
+             "title":"Rozwój sieciowy",
+             "description":"Vue3 + DaisyUI"
+          },
+          "skill3":{
+             "title":"Kontrola wersji",
+             "description":"Git, GitHub"
+          },
+          "skill4":{
+             "title":"Projektowanie stron/aplikacji",
+             "description":"Prototypowanie i projektowanie UI/UX"
+          }
+       }
+    },
+    "contactMe":{
+       "socialNetwork":"Moje sieci społecznościowe",
+       "form":{
+          "title":"Skontaktuj się ze mną",
+          "yourname":"Twoje imię",
+          "enteryourname":"Wprowadź swoje imię",
+          "youremail":"Twój e-mail",
+          "enteryouremail":"Wprowadź swój e-mail",
+          "message":"Wiadomość",
+          "enteryourmessage":"Wprowadź swoją wiadomość",
+          "submit":"Wyślij",
+          "sending":"Wysyłanie..."
+       }
+    }
+ }

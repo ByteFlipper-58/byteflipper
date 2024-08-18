@@ -1,8 +1,8 @@
 {
-   "animatedTexts": [
-      "iBa", 
-      "Ibragim", 
-      "Ibrahim", 
+   "animatedTexts":[
+      "iBa",
+      "Ibragim",
+      "Ibrahim",
       "Ibraim",
       "Abraham",
       "Abram",
@@ -14,98 +14,98 @@
       "Muslim",
       "Deni",
       "Andrey"
-    ],
-    "iam": "I am a",
-  "menu": {
-   "home": "Home",
-   "aboutMe": "About Me",
-   "contactMe": "Contact Me"
-  },
-  "home":{
-     "welcomeMessage":"Hi there!",
-     "description": "We pour our hearts into the projects we create for you ❤️<br>On this site, you'll find our apps and developments, crafted with care and attention. We hope our work will be useful to you.",
-     "ourAndroidApps": "Our Android apps",
-     "cards":{
-        "ffsettings":{
-           "title":"FF Settings",
-           "description":"Here are sensitivity settings for the game Garena Free Fire for various devices."
-        },
-        "mcbedrock":{
-           "title":"MCBedrock",
-           "description":"Here you will find the latest news as well as changelogs for Minecraft."
-        },
-        "strongholdFinder":{
-           "title":"Portal Seeker App",
-           "description":"Here you can easily find the stronghold portal using your coordinates and throwing angle."
-        },
-        "mcids":{
-           "title":"MC IDs App",
-           "description":"Here you can easily find block IDs, items, particles, etc. from Minecraft."
-        },
-        "donate":{
-         "title":"Donate",
-         "description":"Donate"
+   ],
+   "iam":"I am a",
+   "menu":{
+      "home":"Home",
+      "aboutMe":"About Me",
+      "contactMe":"Contact Me"
+   },
+   "home":{
+      "welcomeMessage":"Hi there!",
+      "description":"We pour our hearts into the projects we create for you ❤️<br>On this site, you'll find our apps and developments, crafted with care and attention. We hope our work will be useful to you.",
+      "ourAndroidApps":"Our Android apps",
+      "cards":{
+         "ffsettings":{
+            "title":"FF Settings",
+            "description":"Here are sensitivity settings for the game Garena Free Fire for various devices."
+         },
+         "mcbedrock":{
+            "title":"MCBedrock",
+            "description":"Here you will find the latest news as well as changelogs for Minecraft."
+         },
+         "strongholdFinder":{
+            "title":"Portal Seeker App",
+            "description":"Here you can easily find the stronghold portal using your coordinates and throwing angle."
+         },
+         "mcids":{
+            "title":"MC IDs App",
+            "description":"Here you can easily find block IDs, items, particles, etc. from Minecraft."
+         },
+         "donate":{
+            "title":"Donate",
+            "description":"Donate"
+         }
       }
-     }
-  },
-  "ffsettings": {
-   "about": "",
-   "features": "Features",
-   "screenshots": "Screenshots",
-   "description": "Here are sensitivity settings for the game Garena Free Fire for various devices.",
-   "featues":{
-      "cloudTechnology":{
-         "title":"Cloud Technology",
-         "description":"New sensitivities settings appear without needing to update the app"
-      },
-      "multilingualSupport":{
-         "title":"Multilingual Support",
-         "description":"Different languages are supported and new ones are being added"
-      },
-      "manyBrands":{
-         "title":"Many Brands",
-         "description":"Support for devices from more than 12 different manufacturers"
-      },
-      "minimalistUI":{
-         "title":"Minimalist UI",
-         "description":"Self-explanatory interface without overloaded menus"
+   },
+   "ffsettings":{
+      "about":"",
+      "features":"Features",
+      "screenshots":"Screenshots",
+      "description":"Here are sensitivity settings for the game Garena Free Fire for various devices.",
+      "featues":{
+         "cloudTechnology":{
+            "title":"Cloud Technology",
+            "description":"New sensitivities settings appear without needing to update the app"
+         },
+         "multilingualSupport":{
+            "title":"Multilingual Support",
+            "description":"Different languages are supported and new ones are being added"
+         },
+         "manyBrands":{
+            "title":"Many Brands",
+            "description":"Support for devices from more than 12 different manufacturers"
+         },
+         "minimalistUI":{
+            "title":"Minimalist UI",
+            "description":"Self-explanatory interface without overloaded menus"
+         }
+      }
+   },
+   "aboutMe":{
+      "description":"I'm an Android developer who recently started working in web development. I'm originally from Chechnya, Russia, but currently reside in Biała Podlaska, Poland. I moved to Poland in 2017 and still live here, but I plan to move to Moscow or St. Petersburg in the future.<br><br>Currently, I'm actively studying web development. I'm also a member of the JVMFrog Live community and the owner of the ByteFlipper project.<br><br>Open source is my passion, and for over two years, I've been contributing to the development of open-source projects by publishing my applications with open source code. Besides technology, I'm interested in linguistics, and I'm actively learning English at the moment. I'm also passionate about photography, user interface design, and even drawing. Music is my passion, and my day doesn't go by without good music.",
+      "skills":"Skills",
+      "skillsCards":{
+         "skill1":{
+            "title":"Android Developement",
+            "description":"Java, Kotlin"
+         },
+         "skill2":{
+            "title":"Web Developement",
+            "description":"Vue3 + DaisyUI"
+         },
+         "skill3":{
+            "title":"Version Control",
+            "description":"Git, GitHub"
+         },
+         "skill4":{
+            "title":"Web/App Designing",
+            "description":"Prototyping & UI/UX Designing"
+         }
+      }
+   },
+   "contactMe":{
+      "socialNetwork":"My Social Network",
+      "form":{
+         "title":"Contact me",
+         "yourname":"Your name",
+         "enteryourname":"Enter your name",
+         "youremail":"Your email",
+         "enteryouremail":"Enter your email",
+         "message":"Message",
+         "enteryourmessage":"Enter your message",
+         "submit":"Submit",
+         "sending":"Sending..."
       }
    }
-  },
-  "aboutMe": {
-   "description": "I'm an Android developer who recently started working in web development. I'm originally from Chechnya, Russia, but currently reside in Biała Podlaska, Poland. I moved to Poland in 2017 and still live here, but I plan to move to Moscow or St. Petersburg in the future.<br><br>Currently, I'm actively studying web development. I'm also a member of the JVMFrog Live community and the owner of the ByteFlipper project.<br><br>Open source is my passion, and for over two years, I've been contributing to the development of open-source projects by publishing my applications with open source code. Besides technology, I'm interested in linguistics, and I'm actively learning English at the moment. I'm also passionate about photography, user interface design, and even drawing. Music is my passion, and my day doesn't go by without good music.",
-   "skills": "Skills",
-   "skillsCards":{
-      "skill1":{
-         "title":"Android Developement",
-         "description":"Java, Kotlin"
-      },
-      "skill2":{
-         "title":"Web Developement",
-         "description":"Vue3 + DaisyUI"
-      },
-      "skill3":{
-         "title":"Version Control",
-         "description":"Git, GitHub"
-      },
-      "skill4":{
-         "title":"Web/App Designing",
-         "description":"Prototyping & UI/UX Designing"
-      }
-   }
-  },
-  "contactMe": {
-   "socialNetwork": "My Social Network",
-   "form": {
-      "title": "Contact me",
-      "yourname": "Your name",
-      "enteryourname": "Enter your name",
-      "youremail": "Your email",
-      "enteryouremail": "Enter your email",
-      "message": "Message",
-      "enteryourmessage": "Enter your message",
-      "submit": "Submit",
-      "sending": "Sending..."
-   }
-  }
 }
