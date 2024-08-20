@@ -28,6 +28,7 @@ const routes = [
     name: 'NotFound',
     component: () => import('@/views/NotFound.vue'),
   },
+  { path: "/app-ads.txt"}
 ];
 
 const router = createRouter({
