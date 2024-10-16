@@ -1,32 +1,38 @@
-name: Telegram Notifications
+name: Notify Telegram
 
 on:
   push:
     branches:
-      - main  # Замените на вашу основную ветку
-
+      - main  # Укажите ветки, которые хотите отслеживать
   release:
-    types: [created]
+    types:
+      - published
 
 jobs:
-  send_telegram_notification:
+  notify-telegram:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Отправка уведомления о новом коммите
+        if: github.event_name == 'push'
+        run: |
+          REPO_URL="https://github.com/${{ github.repository }}"
+          COMMIT_URL="${REPO_URL}/commit/${{ github.sha }}"
+          MESSAGE="Новый коммит в репозитории [${{ github.repository }}](${REPO_URL}) на ветке \`${{ github.ref_name }}\`.\n\n*Сообщение коммита:*\n${{ github.event.head_commit.message }}\n\n*Автор:* ${{ github.event.head_commit.author.name }}\n\n[Посмотреть коммит](${COMMIT_URL})"
+          ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed -E 's/([.|(){}+*^$[\]])/\\\1/g' | sed 's/-/\\-/g' | sed 's/_/\\_/g')
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
+            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+            -d parse_mode="MarkdownV2" \
+            -d text="$ESCAPED_MESSAGE"
 
-      - name: Send Telegram notification
-        uses: appleboy/telegram-action@master
-        with:
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          message: |
-            ${{ github.event_name == 'push' && 'Новый коммит в репозитории [' + github.repository + '](' + github.event.repository.html_url + ') на ветке ' + github.ref  || 'Новый релиз ' + github.event.release.tag_name + ' в репозитории [' + github.repository + '](' + github.event.repository.html_url + ')' }}
-
-            ${{ github.event_name == 'push' && 'Сообщение коммита:\n' + github.event.head_commit.message  || '' }}
-
-            ${{ github.event_name == 'push' && 'Автор: ' + github.actor  || '' }}
-
-            ${{ github.event_name == 'push' && 'Посмотреть коммит: ' + github.event.head_commit.url  || 'Посмотреть релиз: ' + github.event.release.html_url }}
-
-            #${{ github.event_name == 'push' && 'github #commit' || 'github #release' }}
+      - name: Отправка уведомления о новом релизе
+        if: github.event_name == 'release'
+        run: |
+          REPO_URL="https://github.com/${{ github.repository }}"
+          RELEASE_URL="${{ github.event.release.html_url }}"
+          MESSAGE="Новый релиз в репозитории [${{ github.repository }}](${REPO_URL}).\n\n*Название релиза:*\n${{ github.event.release.name }}\n\n*Описание:*\n${{ github.event.release.body }}\n\n[Посмотреть релиз](${RELEASE_URL})"
+          ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed -E 's/([.|(){}+*^$[\]])/\\\1/g' | sed 's/-/\\-/g' | sed 's/_/\\_/g')
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
+            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+            -d parse_mode="MarkdownV2" \
+            -d text="$ESCAPED_MESSAGE"

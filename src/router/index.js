@@ -12,6 +12,17 @@ const routes = [
     path: '/ffsettings',
     name: 'FFSettings',
     component: () => import('@/views/FFSettings.vue'),
+    /*meta: {
+        title: 'description',
+        metaTags: [
+          { property: 'og:title', content: 'Главная страница' },
+          { property: 'og:description', content: 'Описание главной страницы' },
+          { property: 'og:image', content: 'https://example.com/home.jpg' },
+          { name: 'twitter:title', content: 'Главная страница' },
+          { name: 'twitter:description', content: 'Описание главной страницы' },
+          { name: 'twitter:image', content: 'https://example.com/home.jpg' }
+        ],
+      }*/
   },
   {
     path: '/about',
@@ -22,6 +33,16 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import('@/views/Contact.vue'),
+  },
+  {
+    path: '/ffsettings-privacy-policy',
+    name: 'FFSettingsPrivacyPolicy',
+    component: () => import('@/views/FFSettingsPrivacyPolicy.vue'),
+  },
+  {
+    path: '/ffsettings-terms-conditions',
+    name: 'FFSettingsTermsConditions',
+    component: () => import('@/views/FFSettingsTermsConditions.vue'),
   },
   {
     path: '/:pathMatch(.*)*',

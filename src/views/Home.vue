@@ -91,6 +91,15 @@
             @click="openLink('https://github.com/ByteFlipper-58/MC-IDs-App')"
             />
       </div>
+
+      <div class="text-center mt-8">
+         <h3 class="text-2xl lg:text-3xl font-bold mb-4 gradient-text">{{$t('home.authorsMusic')}}</h3>
+      </div>
+      <!-- Грид-контейнер для карточек -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-8">
+         <iframe style="border-radius:21px" src="https://open.spotify.com/embed/track/3vktvkyneIQumM2fexUViL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         <iframe style="border-radius:21px" src="https://open.spotify.com/embed/album/4DwPFchNpa30Z7R6oitGtv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
    </div>
  </template>
  <script setup>

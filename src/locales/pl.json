@@ -25,6 +25,7 @@
        "welcomeMessage":"Witaj!",
        "description":"Wkładamy serce w projekty, które tworzymy dla Ciebie ❤️<br>Na tej stronie znajdziesz nasze aplikacje i rozwinięcia, wykonane z troską i uwagą. Mamy nadzieję, że nasza praca będzie dla Ciebie przydatna.",
        "ourAndroidApps":"Nasze aplikacje na Androida",
+       "authorsMusic": "Muzyka Autora",
        "cards":{
           "ffsettings":{
              "title":"Ustawienia FF",

@@ -25,6 +25,7 @@
       "welcomeMessage":"Hi there!",
       "description":"We pour our hearts into the projects we create for you ❤️<br>On this site, you'll find our apps and developments, crafted with care and attention. We hope our work will be useful to you.",
       "ourAndroidApps":"Our Android apps",
+      "authorsMusic": "Author's Music",
       "cards":{
          "ffsettings":{
             "title":"FF Settings",
