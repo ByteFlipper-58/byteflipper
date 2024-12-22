@@ -27,6 +27,10 @@
       "ourAndroidApps":"Наши Android приложения",
       "authorsMusic":"Музыка Автора",
       "cards":{
+         "everbook":{
+            "title":"EverBook",
+            "description":"Удобное приложение для чтения книг с поддержкой разных форматов."
+         },
          "ffsettings":{
             "title":"FF Settings",
             "description":"Здесь представлены настройки чувствительности для игры Garena Free Fire для различных устройств."

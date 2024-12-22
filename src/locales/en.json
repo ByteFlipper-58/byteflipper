@@ -27,6 +27,10 @@
       "ourAndroidApps":"Our Android apps",
       "authorsMusic": "Author's Music",
       "cards":{
+         "everbook": {
+            "title": "EverBook",
+            "description": "A convenient app for reading books with support for various formats."
+        },
          "ffsettings":{
             "title":"FF Settings",
             "description":"Here are sensitivity settings for the game Garena Free Fire for various devices."
@@ -73,6 +77,34 @@
          }
       }
    },
+   "everbook": {
+      "about": "",
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "description": "A convenient app for reading books that allows users to enjoy their favorite works anytime and anywhere. Simply upload your books to the app and read them in a comfortable, intuitive reader. The app automatically remembers where you left off and reopens the book at the same place when you return. It supports various file formats, as well as font and theme customization for your convenience.",
+      "featues": {
+          "supportedFileFormats": {
+              "title": "Support for 8 File Formats",
+              "description": "Supports 8 different file formats, including: .pdf, .txt, .epub, .fb2, .zip, .html, .htm, and .md"
+          },
+          "customization": {
+              "title": "Full Reader Customization",
+              "description": "Offers customization of the reader: from text size and font selection to colors of text and background"
+          },
+          "themes": {
+              "title": "10 Unique Themes",
+              "description": "Choose from 10 theme variations, including AMOLED and high-contrast options"
+          },
+          "multilingualSupport": {
+              "title": "Multilingual Support",
+              "description": "Supports multiple languages, with new ones added regularly"
+          },
+          "minimalistUI": {
+              "title": "User-Friendly and Minimalist Interface",
+              "description": "An aesthetic, convenient, and customizable interface without unnecessary elements"
+          }
+      }
+  },  
    "aboutMe":{
       "description":"I'm an Android developer who recently started working in web development. I'm originally from Chechnya, Russia, but currently reside in Biała Podlaska, Poland. I moved to Poland in 2017 and still live here, but I plan to move to Moscow or St. Petersburg in the future.<br><br>Currently, I'm actively studying web development. I'm also a member of the JVMFrog Live community and the owner of the ByteFlipper project.<br><br>Open source is my passion, and for over two years, I've been contributing to the development of open-source projects by publishing my applications with open source code. Besides technology, I'm interested in linguistics, and I'm actively learning English at the moment. I'm also passionate about photography, user interface design, and even drawing. Music is my passion, and my day doesn't go by without good music.",
       "skills":"Skills",

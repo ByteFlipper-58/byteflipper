@@ -55,6 +55,15 @@
       <!-- Грид-контейнер для карточек -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
          <Card
+            imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/everbook.png?raw=true"
+            :title="$t('home.cards.everbook.title')"
+            :description="$t('home.cards.everbook.description')"
+            textAlign="center"
+            badgeText="NEW (Not released)"
+            badgeColor="bg-green-500"
+            @click="() => handleCardClick('FFSettings')"
+            />
+         <Card
             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/ff-settings-logo.png?raw=true"
             :title="$t('home.cards.ffsettings.title')"
             :description="$t('home.cards.ffsettings.description')"

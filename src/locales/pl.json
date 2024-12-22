@@ -27,6 +27,10 @@
        "ourAndroidApps":"Nasze aplikacje na Androida",
        "authorsMusic": "Muzyka Autora",
        "cards":{
+         "everbook": {
+            "title": "EverBook",
+            "description": "Wygodna aplikacja do czytania książek z obsługą różnych formatów."
+        },        
           "ffsettings":{
              "title":"Ustawienia FF",
              "description":"Tutaj znajdują się ustawienia czułości dla gry Garena Free Fire dla różnych urządzeń."
@@ -73,6 +77,34 @@
           }
        }
     },
+    "everbook": {
+      "about": "",
+      "features": "Funkcje",
+      "screenshots": "Zrzuty ekranu",
+      "description": "Wygodna aplikacja do czytania książek, która pozwala użytkownikom cieszyć się ulubionymi dziełami w dowolnym czasie i miejscu. Wystarczy przesłać swoje książki do aplikacji i czytać je w wygodnym, intuicyjnym czytniku. Aplikacja automatycznie zapamiętuje, gdzie przerwano, i otwiera książkę w tym samym miejscu przy ponownym uruchomieniu. Obsługuje różne formaty plików, a także umożliwia dostosowanie czcionek i motywów dla wygody użytkownika.",
+      "featues": {
+          "supportedFileFormats": {
+              "title": "Obsługa 8 formatów plików",
+              "description": "Obsługuje 8 różnych formatów plików, w tym: .pdf, .txt, .epub, .fb2, .zip, .html, .htm i .md"
+          },
+          "customization": {
+              "title": "Pełna personalizacja czytnika",
+              "description": "Możliwość dostosowania czytnika: od rozmiaru tekstu i wyboru czcionki po kolory tekstu i tła"
+          },
+          "themes": {
+              "title": "10 unikalnych motywów",
+              "description": "Do wyboru 10 wariantów motywów, w tym AMOLED i opcje o wysokim kontraście"
+          },
+          "multilingualSupport": {
+              "title": "Wielojęzyczne wsparcie",
+              "description": "Obsługuje wiele języków, a nowe są regularnie dodawane"
+          },
+          "minimalistUI": {
+              "title": "Przyjazny i minimalistyczny interfejs",
+              "description": "Estetyczny, wygodny i dostosowywalny interfejs bez zbędnych elementów"
+          }
+      }
+  },  
     "aboutMe":{
        "description":"Jestem deweloperem Androida, który niedawno zaczął pracować w rozwoju sieciowym. Pochodzę z Czeczenii, Rosja, ale obecnie mieszkam w Białej Podlaskiej, Polska. Przeprowadziłem się do Polski w 2017 roku i nadal tutaj mieszkam, ale planuję przeprowadzkę do Moskwy lub Petersburga w przyszłości.<br><br>Obecnie aktywnie studiuję rozwój sieciowy. Jestem także członkiem społeczności JVMFrog Live i właścicielem projektu ByteFlipper.<br><br>Open source to moja pasja, a od ponad dwóch lat przyczyniam się do rozwoju projektów open-source, publikując swoje aplikacje z kodem źródłowym. Poza technologią, interesuję się lingwistyką i aktywnie uczę się angielskiego. Pasjonuje mnie także fotografia, projektowanie interfejsów użytkownika oraz rysowanie. Muzyka to moja pasja i nie ma dnia, żebym nie słuchał dobrej muzyki.",
        "skills":"Umiejętności",

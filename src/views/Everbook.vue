@@ -58,21 +58,21 @@
        <!-- Грид-контейнер для карточек -->
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
           <Card
-             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/cloud.gif?raw=true"
+             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/books.gif?raw=true"
              :title="$t('everbook.featues.supportedFileFormats.title')"
              :description="$t('everbook.featues.supportedFileFormats.description')"
              textAlign="center"
              @click="() => null"
              />
           <Card
-             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/cloud.gif?raw=true"
+             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/resize.gif?raw=true"
              :title="$t('everbook.featues.customization.title')"
              :description="$t('everbook.featues.customization.description')"
              textAlign="center"
              @click="() => null"
              />
          <Card
-             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/cloud.gif?raw=true"
+             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/painting.gif?raw=true"
              :title="$t('everbook.featues.themes.title')"
              :description="$t('everbook.featues.themes.description')"
              textAlign="center"
