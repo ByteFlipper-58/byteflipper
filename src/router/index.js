@@ -45,6 +45,11 @@ const routes = [
     component: () => import('@/views/FFSettingsTermsConditions.vue'),
   },
   {
+    path: '/everbook',
+    name: 'Everbook',
+    component: () => import('@/views/Everbook.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: () => import('@/views/NotFound.vue'),
