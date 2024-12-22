@@ -53,7 +53,7 @@
          <h3 class="text-2xl lg:text-3xl font-bold mb-4 gradient-text">{{$t('home.ourAndroidApps')}}</h3>
       </div>
       <!-- Грид-контейнер для карточек -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
          <Card
             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/everbook.png?raw=true"
             :title="$t('home.cards.everbook.title')"
@@ -61,7 +61,7 @@
             textAlign="center"
             badgeText="NEW (Not released)"
             badgeColor="bg-green-500"
-            @click="() => handleCardClick('FFSettings')"
+            @click="() => handleCardClick('Everbook')"
             />
          <Card
             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/ff-settings-logo.png?raw=true"
