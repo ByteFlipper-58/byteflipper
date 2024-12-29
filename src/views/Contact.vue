@@ -8,19 +8,19 @@
            </h2>
            <div class="flex flex-col gap-4">
               <a href="https://twitter.com/byteflipper" target="_blank" class="btn btn-outline text-base lg:text-lg">
-              <img src="@/assets/icons/x-logo.svg" alt="Twitter" class="w-6 h-6 mr-2" />
+              <img src="@/assets/icons/social_media/x-logo.svg" alt="Twitter" class="w-6 h-6 mr-2" />
               Twitter
               </a>
               <a href="https://t.me/byteflipper" target="_blank" class="btn btn-outline text-base lg:text-lg">
-              <img src="@/assets/icons/telegram-logo-white.svg" alt="Telegram" class="svg-icon mr-2" />
+              <img src="@/assets/icons/social_media/telegram-logo-white.svg" alt="Telegram" class="svg-icon mr-2" />
               Telegram
               </a>
               <a href="https://vk.com/byteflipper" target="_blank" class="btn btn-outline text-base lg:text-lg">
-              <img src="@/assets/icons/vk-logo-white.svg" alt="VK" class="w-6 h-6 mr-2" />
+              <img src="@/assets/icons/social_media/vk-logo-white.svg" alt="VK" class="w-6 h-6 mr-2" />
               VK
               </a>
               <a href="https://github.com/byteflipper-58" target="_blank" class="btn btn-outline text-base lg:text-lg">
-              <img src="@/assets/icons/github-mark-white.svg" alt="LinkedIn" class="w-6 h-6 mr-2" />
+              <img src="@/assets/icons/social_media/github-mark-white.svg" alt="LinkedIn" class="w-6 h-6 mr-2" />
               Github
               </a>
            </div>

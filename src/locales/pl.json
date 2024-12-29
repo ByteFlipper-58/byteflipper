@@ -21,6 +21,9 @@
        "aboutMe":"O mnie",
        "contactMe":"Skontaktuj się"
     },
+    "greeting": {
+      "message":"Wesołych Świąt i Szczęśliwego Nowego 2025 Roku!"
+    },
     "home":{
        "welcomeMessage":"Witaj!",
        "description":"Wkładamy serce w projekty, które tworzymy dla Ciebie ❤️<br>Na tej stronie znajdziesz nasze aplikacje i rozwinięcia, wykonane z troską i uwagą. Mamy nadzieję, że nasza praca będzie dla Ciebie przydatna.",

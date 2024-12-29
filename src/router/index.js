@@ -65,7 +65,8 @@ const routes = [
     component: () => import('@/views/NotFound.vue'),
   },
   { path: "/app-ads.txt"},
-  { path: "/sitemap.xml"}
+  { path: "/sitemap.xml"},
+  { path: "/robots.txt"}
 ];
 
 const router = createRouter({

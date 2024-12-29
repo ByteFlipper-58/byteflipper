@@ -14,7 +14,7 @@
              </div>
              <div class="flex flex-wrap gap-2">
                 <button class="btn" @click="openLink('https://github.com/ByteFlipper-58/book-story')">
-                <img src="@/assets/icons/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
+                <img src="@/assets/icons/social_media/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
                 Github
                 </button>
                 <!--button class="btn" @click="openLink('https://play.google.com/store/apps/details?id=com.byteflipper.ffsensitivities')">
@@ -59,6 +59,9 @@
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
           <Card
              imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/books.gif?raw=true"
+             imagePadding="16px"
+             imageSize="128px"
+             imageBackgroundColor="#ffffff"
              :title="$t('everbook.featues.supportedFileFormats.title')"
              :description="$t('everbook.featues.supportedFileFormats.description')"
              textAlign="center"
@@ -66,6 +69,9 @@
              />
           <Card
              imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/resize.gif?raw=true"
+             imagePadding="16px"
+             imageSize="128px"
+             imageBackgroundColor="#ffffff"
              :title="$t('everbook.featues.customization.title')"
              :description="$t('everbook.featues.customization.description')"
              textAlign="center"
@@ -73,6 +79,9 @@
              />
          <Card
              imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/everbook/painting.gif?raw=true"
+             imagePadding="16px"
+             imageSize="128px"
+             imageBackgroundColor="#ffffff"
              :title="$t('everbook.featues.themes.title')"
              :description="$t('everbook.featues.themes.description')"
              textAlign="center"
@@ -80,6 +89,8 @@
              />
           <Card
              imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/multi_language.gif?raw=true"
+             imageSize="128px"
+             imageBackgroundColor="#ffffff"
              :title="$t('ffsettings.featues.multilingualSupport.title')"
              :description="$t('ffsettings.featues.multilingualSupport.description')"
              textAlign="center"
@@ -87,6 +98,8 @@
              />
           <Card
              imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/animated/easy_ui.gif?raw=true"
+             imageSize="128px"
+             imageBackgroundColor="#ffffff"
              :title="$t('everbook.featues.minimalistUI.title')"
              :description="$t('everbook.featues.minimalistUI.description')"
              textAlign="center"

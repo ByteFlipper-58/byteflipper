@@ -14,7 +14,7 @@
             </div>
             <div class="flex flex-wrap gap-2">
                <button class="btn" @click="openLink('https://github.com/ByteFlipper-58/FFSensitivities')">
-               <img src="@/assets/icons/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
+               <img src="@/assets/icons/social_media/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
                Github
                </button>
                <button class="btn" @click="openLink('https://play.google.com/store/apps/details?id=com.byteflipper.ffsensitivities')">
