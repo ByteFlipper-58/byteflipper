@@ -50,6 +50,16 @@ const routes = [
     component: () => import('@/views/Everbook.vue'),
   },
   {
+    path: '/everbook-privacy-policy',
+    name: 'EverBookPrivacyPolicy',
+    component: () => import('@/views/EverBookPrivacyPolicy.vue'),
+  },
+  {
+    path: '/everbook-terms-conditions',
+    name: 'EverBookTermsConditions',
+    component: () => import('@/views/EverBookTermsConditions.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: () => import('@/views/NotFound.vue'),
