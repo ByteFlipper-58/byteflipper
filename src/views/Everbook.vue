@@ -2,43 +2,35 @@
     <div class="p-4">
        <!-- Основной контейнер -->
        <div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
-          <!-- Левая сторона с текстом -->
-          <div class="flex-1 lg:pr-8 mb-8 lg:mb-0 lg:p-16 min-h-full flex flex-col justify-between">
-             <div>
-                <h1 class="text-3xl lg:text-4xl font-bold mb-4 gradient-text">
-                   EverBook
-                </h1>
-                <p class="text-base lg:text-lg mb-4">
-                   {{ $t('everbook.description') }}
-                </p>
-             </div>
-             <div class="flex flex-wrap gap-2">
-                <button class="btn" @click="openLink('https://github.com/ByteFlipper-58/book-story')">
-                <img src="@/assets/icons/social_media/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
-                Github
-                </button>
-                <!--button class="btn" @click="openLink('https://play.google.com/store/apps/details?id=com.byteflipper.ffsensitivities')">
-                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="42px" height="42px">
-                      <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                         <g transform="scale(5.12,5.12)">
-                            <path d="M7.125,2l21.65625,21.5l5.9375,-5.9375l-26.25,-15.15625c-0.4375,-0.25391 -0.90625,-0.39453 -1.34375,-0.40625zM5.3125,3c-0.19531,0.34766 -0.3125,0.75781 -0.3125,1.21875v41.78125c0,0.33594 0.07031,0.63672 0.1875,0.90625l22.15625,-22zM36.53125,18.59375l-6.34375,6.3125l6.34375,6.28125l7.75,-4.4375c1.10156,-0.63672 1.25781,-1.44531 1.25,-1.875c-0.01172,-0.71094 -0.46094,-1.375 -1.21875,-1.78125c-0.66016,-0.35547 -5.5625,-3.21094 -7.78125,-4.5zM28.78125,26.3125l-21.84375,21.65625c0.36328,-0.01953 0.75781,-0.09766 1.125,-0.3125c0.85547,-0.49609 18.15625,-10.5 18.15625,-10.5l8.53125,-4.90625z"></path>
-                         </g>
-                      </g>
-                   </svg>
-                   Google Play
-                </button-->
-                <!--button class="btn" @click="openLink('https://github.com/ByteFlipper-58/FFSensitivities/releases/download/v1.2.5/app-release.apk')">
-                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="48px" height="48px">
-                      <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                         <g transform="scale(8,8)">
-                            <path d="M16,5c-4.11719,0 -7.35937,3.12891 -7.8125,7.125c-1.79297,0.30078 -3.24609,1.51953 -3.84375,3.21875c-2.46094,0.71094 -4.34375,2.90625 -4.34375,5.65625c0,3.32422 2.67578,6 6,6h20c3.32422,0 6,-2.67578 6,-6c0,-1.76172 -0.85547,-3.33594 -2.09375,-4.4375c-0.23047,-3.51562 -3.03516,-6.31641 -6.5625,-6.5c-1.20312,-2.92969 -3.96484,-5.0625 -7.34375,-5.0625zM16,7c2.76172,0 4.97266,1.76953 5.75,4.28125l0.21875,0.71875h1.03125c2.75391,0 5,2.24609 5,5v0.5l0.40625,0.3125c0.94531,0.70703 1.59375,1.92188 1.59375,3.1875c0,2.27734 -1.72266,4 -4,4h-20c-2.27734,0 -4,-1.72266 -4,-4c0,-2.01953 1.44922,-3.58594 3.28125,-3.90625l0.65625,-0.125l0.125,-0.65625c0.30078,-1.34766 1.49219,-2.3125 2.9375,-2.3125h1v-1c0,-3.37109 2.62891,-6 6,-6zM15,12v6.5625l-2.28125,-2.28125l-1.4375,1.4375l4,4l0.71875,0.6875l0.71875,-0.6875l4,-4l-1.4375,-1.4375l-2.28125,2.28125v-6.5625z"></path>
-                         </g>
-                      </g>
-                   </svg>
-                   Download APK
-                </button-->
-             </div>
-          </div>
+  <!-- Левая сторона с текстом -->
+  <div class="flex-1 lg:pr-8 mb-8 lg:mb-0 lg:p-16 min-h-full flex flex-col justify-between">
+    <div>
+      <h1 class="text-3xl lg:text-4xl font-bold mb-4 gradient-text">
+        EverBook
+      </h1>
+      <p class="text-base lg:text-lg mb-4">
+        {{ $t('everbook.description') }}
+      </p>
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <button class="btn" @click="openLink('https://github.com/ByteFlipper-58/book-story')">
+        <img src="@/assets/icons/social_media/github-mark-white.svg" alt="GitHub" class="w-6 h-6 mr-2" />
+        Github
+      </button>
+      <img 
+    src="@/assets/images/badge/googleplay.png" 
+    alt="Google Play" 
+    class="w-40 h-auto cursor-pointer" 
+    @click="openLink('https://play.google.com/store/apps/details?id=com.byteflipper.everbook')" 
+  />
+  <img 
+    src="@/assets/images/badge/rustore.svg" 
+    alt="RuStore" 
+    class="w-32 h-auto cursor-pointer" 
+    @click="openLink('https://apps.rustore.ru/app/com.byteflipper.everbook')" 
+  />
+    </div>
+  </div>
           <!-- Правая сторона с фото -->
           <div class="flex-1 flex justify-center items-center lg:p-16">
              <div class="relative p-2 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 rounded-full">
