@@ -26,7 +26,7 @@
        <h3 class="text-3xl font-bold mb-8 gradient-text">{{ $t('aboutMe.skills') }}</h3>
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-4">
          <Card
-             imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/Android_Robot.png?raw=true"
+             :imageSrc="LINK_IMG_ANDROID_ROBOT"
              imagePadding="16px"
              imageSize="128px"
              imageBackgroundColor="#73b57b"
@@ -36,7 +36,7 @@
              @click="() => null"
          />
            <Card
-               imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/web.png?raw=true"
+               :imageSrc="LINK_IMG_WEB"
                imagePadding="16px"
                imageSize="128px"
                imageBackgroundColor="#6b95cd"
@@ -46,7 +46,7 @@
                @click="() => null"
            />
            <Card
-               imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/github.png?raw=true"
+               :imageSrc="LINK_IMG_GITHUB"
                imagePadding="16px"
                imageSize="128px"
                imageBackgroundColor="#5e6778"
@@ -56,7 +56,7 @@
                @click="() => null"
            />
            <Card
-               imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/images/about/design.png?raw=true"
+               :imageSrc="LINK_IMG_DESIGN"
                imagePadding="16px"
                imageSize="128px"
                imageBackgroundColor="#948c8c"
@@ -72,9 +72,15 @@
 <script setup>
   import { useRouter } from 'vue-router';
   import Card from '@/components/Card.vue';
-  
+  import {
+    LINK_IMG_ANDROID_ROBOT,
+    LINK_IMG_WEB,
+    LINK_IMG_GITHUB,
+    LINK_IMG_DESIGN
+  } from '@/config.constants'; // Импортируем константы
+
   const router = useRouter();
-  
+
   const openLink = (url) => {
     window.open(url, '_blank');
   };

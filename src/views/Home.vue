@@ -15,19 +15,19 @@
                    <div class="flex flex-wrap gap-2">
                        <button
                            class="btn btn-circle btn-outline flex items-center justify-center"
-                           @click="openLink('https://t.me/byteflipper')"
+                           @click="openLink(LINK_TELEGRAM)"
                        >
                            <img src="@/assets/icons/social_media/telegram-logo.svg" alt="Telegram" class="w-10 h-10"/>
                        </button>
                        <button
                            class="btn btn-circle btn-outline flex items-center justify-center"
-                           @click="openLink('https://github.com/ByteFlipper-58/')"
+                           @click="openLink(LINK_GITHUB_PROFILE)"
                        >
                            <img src="@/assets/icons/social_media/github-mark-white.svg" alt="GitHub" class="w-10 h-10"/>
                        </button>
                        <button
                            class="btn btn-circle btn-outline flex items-center justify-center"
-                           @click="openLink('https://vk.com/byteflipper')"
+                           @click="openLink(LINK_VK)"
                        >
                            <img src="@/assets/icons/social_media/vk-logo.svg" alt="VK" class="w-8 h-8"/>
                        </button>
@@ -53,7 +53,7 @@
        <h3 class="text-3xl font-bold mb-8 gradient-text">{{ $t('home.ourAndroidApps') }}</h3>
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
          <Card
-           imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/everbook.png?raw=true"
+           :imageSrc="LINK_EVERBOOK_LOGO"
            :title="$t('home.cards.everbook.title')"
            :description="$t('home.cards.everbook.description')"
            textAlign="center"
@@ -62,7 +62,7 @@
            @click="() => handleCardClick('Everbook')"
          />
          <Card
-           imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/ff-settings-logo.png?raw=true"
+           :imageSrc="LINK_FFSETTINGS_LOGO"
            :title="$t('home.cards.ffsettings.title')"
            :description="$t('home.cards.ffsettings.description')"
            textAlign="center"
@@ -71,43 +71,32 @@
            @click="() => handleCardClick('FFSettings')"
          />
          <Card
-           imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/mcbedrock-logo.png?raw=true"
+           :imageSrc="LINK_MCBEDROCK_LOGO"
            :title="$t('home.cards.mcbedrock.title')"
            :description="$t('home.cards.mcbedrock.description')"
            textAlign="center"
            badgeText="STABLE"
            badgeColor="bg-green-500"
-           @click="openLink('https://github.com/ByteFlipper-58/Minecraft-News-App/')"
+           @click="openLink(LINK_MCBEDROCK_GITHUB)"
          />
          <Card
-           imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/end-portal-finder-logo.png?raw=true"
+           :imageSrc="LINK_STRONGHOLD_FINDER_LOGO"
            :title="$t('home.cards.strongholdFinder.title')"
            :description="$t('home.cards.strongholdFinder.description')"
            textAlign="center"
            badgeText="STABLE"
            badgeColor="bg-green-500"
-           @click="openLink('https://github.com/intkgc/end-portal-coords')"
+           @click="openLink(LINK_STRONGHOLD_FINDER_GITHUB)"
          />
          <Card
-           imageSrc="https://github.com/ByteFlipper-58/byteflipper/blob/main/src/assets/logos/mcids-logo.png?raw=true"
+           :imageSrc="LINK_MCIDS_LOGO"
            :title="$t('home.cards.mcids.title')"
            :description="$t('home.cards.mcids.description')"
            textAlign="center"
            badgeText="CLOSED"
            badgeColor="bg-red-800"
-           @click="openLink('https://github.com/ByteFlipper-58/MC-IDs-App')"
-         />
-       </div>
-     </section>
-     <section class="text-center mb-16">
-       <h3 class="text-3xl font-bold mb-8 gradient-text">{{ $t('home.authorsMusic') }}</h3>
-         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-4">
-           <div class="spotify-player-container">
-             <iframe style="border-radius:21px" src="https://open.spotify.com/embed/track/3vktvkyneIQumM2fexUViL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           </div>
-           <div class="spotify-player-container">
-            <iframe style="border-radius:21px" src="https://open.spotify.com/embed/album/4DwPFchNpa30Z7R6oitGtv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           </div>
+           @click="openLink(LINK_MCIDS_GITHUB)"
+        />
        </div>
      </section>
    </div>
@@ -116,17 +105,25 @@
    import { useRouter } from 'vue-router';
    import Card from '@/components/Card.vue';
    import AnimatedText from '@/components/AnimatedText.vue';
-   
+   import {
+     LINK_TELEGRAM,
+     LINK_GITHUB_PROFILE,
+     LINK_VK,
+     LINK_EVERBOOK_LOGO,
+     LINK_FFSETTINGS_LOGO,
+     LINK_MCBEDROCK_LOGO,
+     LINK_MCBEDROCK_GITHUB,
+     LINK_STRONGHOLD_FINDER_LOGO,
+     LINK_STRONGHOLD_FINDER_GITHUB,
+     LINK_MCIDS_LOGO,
+     LINK_MCIDS_GITHUB
+   } from '@/config.constants'; // Импортируем константы
+
    const router = useRouter();
-   
+
    const handleCardClick = (routeName) => {
      router.push({ name: routeName });
    };
-   
-   const openTelegramChannel = () => {
-     window.open('https://t.me/byteflipper', '_blank');
-   };
- 
    const openLink = (url) => {
     window.open(url, '_blank');
     };
@@ -163,12 +160,5 @@
  -webkit-text-fill-color: transparent;
  color: transparent;
  font-weight: bold;
-}
-.spotify-player-container {
-transition: transform 0.3s ease;
-}
-
-.spotify-player-container:hover {
-transform: scale(1.05);
 }
 </style>

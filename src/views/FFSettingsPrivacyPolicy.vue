@@ -38,10 +38,9 @@
          The Application shares data with third-party services to enhance functionality, provide analytics, and deliver personalized advertisements:
        </p>
        <ul>
-         <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-         <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
-         <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase</a></li>
-         <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity Ads</a></li>
+         <li><a :href="LINK_GOOGLE_PLAY_SERVICES_PRIVACY" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+         <li><a :href="LINK_ADMOB_PRIVACY" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+         <li><a :href="LINK_UNITY_ADS_PRIVACY" target="_blank" rel="noopener noreferrer">Unity Ads</a></li>
        </ul>
        <p>
          Data is not sold to third parties but may be shared for the purposes described above. Users may opt out of targeted advertising where applicable.
@@ -77,4 +76,10 @@
      </body>
    </div>
  </template>
- 
+<script setup>
+  import {
+    LINK_GOOGLE_PLAY_SERVICES_PRIVACY,
+    LINK_ADMOB_PRIVACY,
+    LINK_UNITY_ADS_PRIVACY
+  } from '@/config.constants'; // Импортируем константы
+</script>

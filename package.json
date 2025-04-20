@@ -13,7 +13,6 @@
     "axios": "^1.7.2",
     "daisyui": "^4.12.10",
     "emailjs-com": "^3.2.0",
-    "firebase": "^10.13.0",
     "vue": "^3.4.29",
     "vue-i18n": "^10.0.0-beta.5",
     "vue-meta": "^2.4.0",
@@ -26,6 +25,7 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "vite-plugin-sitemap": "^0.7.1"
   }
 }

@@ -12,12 +12,10 @@
           <div>
              <p>Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:</p>
              <ul>
-                <li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-                <li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li>
-                <li><a href="https://www.google.com/analytics/terms/" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
-                <li><a href="https://firebase.google.com/terms/crashlytics" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+                <li><a :href="LINK_GOOGLE_PLAY_SERVICES_TERMS" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+                <li><a :href="LINK_ADMOB_TERMS" target="_blank" rel="noopener noreferrer">AdMob</a></li>
                 <!----><!----><!----><!----><!----><!----><!---->
-                <li><a href="https://unity3d.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer">Unity</a></li>
+                <li><a :href="LINK_UNITY_TERMS" target="_blank" rel="noopener noreferrer">Unity</a></li>
                 <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
              </ul>
           </div>
@@ -41,3 +39,10 @@
        </body>
     </div>
  </template>
+<script setup>
+  import {
+    LINK_GOOGLE_PLAY_SERVICES_TERMS,
+    LINK_ADMOB_TERMS,
+    LINK_UNITY_TERMS
+  } from '@/config.constants'; // Импортируем константы
+</script>
